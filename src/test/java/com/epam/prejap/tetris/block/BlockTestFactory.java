@@ -27,7 +27,8 @@ public class BlockTestFactory {
                 new BlockTest(new LBlock(), new TestLBlock()),
                 new BlockTest(new ZBlock(), new TestZBlock()),
                 new BlockTest(new JBlock(), new TestJBlock()),
-                new BlockTest(new SBlock(), new TestSBlock())
+                new BlockTest(new SBlock(), new TestSBlock()),
+                new BlockTest(new TBlock(), new TestTBlock())
         };
     }
 
