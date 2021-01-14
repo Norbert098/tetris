@@ -421,6 +421,74 @@ record TestPlayfieldBlockRotations(BlockFeed mockBlockfeed,
             },
     };
 
+    private static final Object[][] T_BLOCK_ROTATIONS_ON_GRID = new Object[][]{
+            {
+                    TimesUPKeyIsPressed.ZERO, """
+                +------+
+                | ###  |
+                |  #   |
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
+                +------+"""
+            },
+            {
+                    TimesUPKeyIsPressed.ONE, """
+                +------+
+                |      |
+                |  #   |
+                | ##   |
+                |  #   |
+                |      |
+                |      |
+                |      |
+                |      |
+                +------+"""
+            },
+            {
+                    TimesUPKeyIsPressed.TWO, """
+               +------+
+                | ###  |
+                |  #   |
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
+                +------+"""
+            },
+            {
+                    TimesUPKeyIsPressed.THREE, """
+               +------+
+                |      |
+                |  #   |
+                | ##   |
+                |  #   |
+                |      |
+                |      |
+                |      |
+                |      |
+                +------+"""
+            },
+            {
+                    TimesUPKeyIsPressed.FOUR, """
+               +------+
+                | ###  |
+                |  #   |
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
+                +------+"""
+            },
+    };
+
     static TestPlayfieldBlockRotations iBlock() {
         return new TestPlayfieldBlockRotations(
                 TestMockBlockFeed.iBlockFeed(),
@@ -470,6 +538,15 @@ record TestPlayfieldBlockRotations(BlockFeed mockBlockfeed,
         return new TestPlayfieldBlockRotations(
                 TestMockBlockFeed.zBlockFeed(),
                 Z_BLOCK_ROTATIONS_ON_GRID,
+                GRID_ROWS,
+                GRID_COLUMNS
+        );
+    }
+
+    static TestPlayfieldBlockRotations tBlock() {
+        return new TestPlayfieldBlockRotations(
+                TestMockBlockFeed.tBlockFeed(),
+                T_BLOCK_ROTATIONS_ON_GRID,
                 GRID_ROWS,
                 GRID_COLUMNS
         );

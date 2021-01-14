@@ -13,6 +13,7 @@ public class PlayfieldBlockRotationTestFactory {
                 new PlayfieldBlockRotationTest(TestPlayfieldBlockRotations.oBlock()),
                 new PlayfieldBlockRotationTest(TestPlayfieldBlockRotations.sBlock()),
                 new PlayfieldBlockRotationTest(TestPlayfieldBlockRotations.zBlock()),
+                new PlayfieldBlockRotationTest(TestPlayfieldBlockRotations.tBlock()),
         };
     }
 
