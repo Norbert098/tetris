@@ -7,7 +7,6 @@ import java.util.List;
  *
  * @author Norbert Borek
  * @implNote To create image representation of letter "T"
- * I've simply modified second row of two-dimensional array IMAGE.
  * two-dimensional array IMAGE is simply modified.
  * @see Block
  */
