@@ -9,6 +9,13 @@
         <groups>
             <define name="Block">
                 <include name="BlockFeed" />
+                <include name="LBlock" />
+                <include name="SBlock" />
+                <include name="IBlock" />
+                <include name="OBlock" />
+                <include name="JBlock" />
+                <include name="TBlock"/>
+                <include name="BlockFeed" />
                 <include name="BlockShape" />
                 <include name="BlockRotation" />
             </define>
