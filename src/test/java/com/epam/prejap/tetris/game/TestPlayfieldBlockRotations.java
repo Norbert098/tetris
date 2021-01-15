@@ -439,9 +439,9 @@ record TestPlayfieldBlockRotations(BlockFeed mockBlockfeed,
                     TimesUPKeyIsPressed.ONE, """
                 +------+
                 |      |
-                |  #   |
-                | ##   |
-                |  #   |
+                |   #  |
+                |  ##  |
+                |   #  |
                 |      |
                 |      |
                 |      |
@@ -451,11 +451,11 @@ record TestPlayfieldBlockRotations(BlockFeed mockBlockfeed,
             {
                     TimesUPKeyIsPressed.TWO, """
                +------+
-                | ###  |
-                |  #   |
                 |      |
                 |      |
                 |      |
+                |   #  |
+                |  ### |
                 |      |
                 |      |
                 |      |
@@ -465,26 +465,26 @@ record TestPlayfieldBlockRotations(BlockFeed mockBlockfeed,
                     TimesUPKeyIsPressed.THREE, """
                +------+
                 |      |
-                |  #   |
-                | ##   |
-                |  #   |
                 |      |
                 |      |
                 |      |
+                |   #  |
+                |   ## |
+                |   #  |
                 |      |
                 +------+"""
             },
             {
                     TimesUPKeyIsPressed.FOUR, """
                +------+
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
+                |      |
                 | ###  |
                 |  #   |
-                |      |
-                |      |
-                |      |
-                |      |
-                |      |
-                |      |
                 +------+"""
             },
     };
