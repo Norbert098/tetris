@@ -454,8 +454,8 @@ record TestPlayfieldBlockRotations(BlockFeed mockBlockfeed,
                 |      |
                 |      |
                 |      |
-                |   #  |
-                |  ### |
+                |  #   |
+                | ###  |
                 |      |
                 |      |
                 |      |
@@ -468,9 +468,9 @@ record TestPlayfieldBlockRotations(BlockFeed mockBlockfeed,
                 |      |
                 |      |
                 |      |
-                |   #  |
-                |   ## |
-                |   #  |
+                |  #   |
+                |  ##  |
+                |  #   |
                 |      |
                 +------+"""
             },

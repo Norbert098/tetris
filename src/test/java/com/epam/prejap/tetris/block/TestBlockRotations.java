@@ -137,13 +137,13 @@ record TestBlockRotations(Block block, Object[] rotationImages) {
                     {0, 1},
             },
             new byte[][]{
-                    {1, 1, 1},
                     {0, 1, 0},
+                    {1, 1, 1},
             },
             new byte[][]{
-                    {0, 1},
+                    {1, 0},
                     {1, 1},
-                    {0, 1},
+                    {1, 0},
             },
     };
 
